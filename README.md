@@ -1,11 +1,10 @@
 # Mid-project-2020
 
-OpsSchool Mid project 2020
-Goals:
+## OpsSchool Mid project 2020 goals:
 To create the basic infrastruture for final project, simulate a CI pipline.
 Goal is to make the project automatically (as much as possible) and highly available.
 
-This module uses these tools:
+## This module uses these tools:
 
 * Ansible
 * Terraform
@@ -14,7 +13,7 @@ This module uses these tools:
 * Consul
 * Jenkins 
 
-How to fully execute:
+## How to fully execute:
 * User clones the git repository
 * Runs terraform apply –auto-approve
 * Connect to Ansible server
@@ -28,7 +27,3 @@ How to fully execute:
 	* Build Docker container
 	* Register image to DockerHub
 	* Deploy to K8s
-
-
-
-
